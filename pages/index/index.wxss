@@ -1,0 +1,44 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.main {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.main view {
+  padding: 20px;
+  text-align: center;
+}
+.main div{
+  width: 35%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  display: inline-block;
+}
+div.img{
+  background-color: #ddd;
+  margin-right: 20px;
+}
+
+div.game{
+  background-color: #555;
+  color: #ddd;
+}
+

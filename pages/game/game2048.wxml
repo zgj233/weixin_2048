@@ -1,0 +1,17 @@
+
+<!--pages/game/game2048.wxml-->
+<view class="container">
+  <p class="score">Score:<span>{{score}}</span> </p>
+  <view id="gridPanel" catchtouchstart="touchStart" catchtouchend="touchEnd">
+    <view wx:for="{{items}}" wx:for-item="row">
+      <div wx:for="{{row}}" wx:for-item="col" class="grid">
+        {{col}}
+      </div>
+    </view>
+  </view>
+  <view wx:if="{{  state === 0  }}" id="gameOver">
+    <p>Game Over!</p>
+    <p>Score:<span></span> </p>
+  </view>
+  <p wx:if="{{  state === 0  }}" class="button" catchTap="gameStart">Try again!</p>
+</view>

@@ -1,0 +1,23 @@
+/* pages/imgs/picture.wxss */
+.btn-box{
+    margin-top: 10px;
+}
+.my-scroll{
+    white-space: nowrap;
+    height: 622px;
+}
+.my-scroll view{
+    display: inline-block;
+    height: 622px;
+}
+
+.my-scroll view image{
+    width: 375px;
+    height: 622px;
+}
+
+.txt{
+    color: #555;
+    margin-top: 20px;
+    font-size:14pt;
+}
