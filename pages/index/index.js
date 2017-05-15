@@ -23,11 +23,6 @@ Page({
       })
     })
   },
-  showImgs:function (){
-    wx.navigateTo({
-      url: '../imgs/picture'
-    })
-  },
   playGame:function (){
     wx.navigateTo({
       url: '../game/game2048',

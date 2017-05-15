@@ -5,9 +5,6 @@
   </view>
   <view class="main">
     <view class="row">
-      <div class="img" bindtap="showImgs">
-        查看照片
-      </div>
       <div class="game" bindtap="playGame">
         玩游戏
       </div>

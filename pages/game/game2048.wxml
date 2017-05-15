@@ -4,14 +4,14 @@
   <p class="score">Score:<span>{{score}}</span> </p>
   <view id="gridPanel" catchtouchstart="touchStart" catchtouchend="touchEnd">
     <view wx:for="{{items}}" wx:for-item="row">
-      <div wx:for="{{row}}" wx:for-item="col" class="grid">
-        {{col}}
+      <div wx:for="{{row}}" wx:for-item="col" class="{{'grid n'+ col}}">
+        {{col===0 ? '': col}}
       </div>
     </view>
   </view>
   <view wx:if="{{  state === 0  }}" id="gameOver">
     <p>Game Over!</p>
-    <p>Score:<span></span> </p>
+    <p>Score:<span>{{score}}</span> </p>
   </view>
-  <p wx:if="{{  state === 0  }}" class="button" catchTap="gameStart">Try again!</p>
+  <p wx:if="{{  state === 0  }}" class="button" catchtap="gameStart">Try again!</p>
 </view>

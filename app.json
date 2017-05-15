@@ -2,13 +2,12 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/imgs/picture",
     "pages/game/game2048"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "李宝宝",
+    "navigationBarTitleText": "2048",
     "navigationBarTextStyle":"black"
   }
 }

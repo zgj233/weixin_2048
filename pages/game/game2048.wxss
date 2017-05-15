@@ -20,12 +20,12 @@
     line-height: 80px;
     border-radius:6px;
     margin:10px 5px 0 5px;
+    vertical-align: top;
     display: inline-block;
 }
 
 .grid{
     background-color:#ccc0b3;
-    
 }
 
 .n2{background-color:#eee3da}
